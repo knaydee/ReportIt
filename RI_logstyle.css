@@ -1,0 +1,10 @@
+.header {
+	color: blue;
+}
+input[type="submit"] {
+	background: white;
+	color: blue;
+}
+.email, .name, .quote {
+	width: 20em;
+}
