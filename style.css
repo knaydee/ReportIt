@@ -3,10 +3,33 @@
 }
 
 .welcome {
-	height: 300px;
-	width: 500px;
+	height: 50%;
+	width: 35%;
 }
 
 .title {
+	text-align: center;
+}
 
+.description {
+	display: inline-block;
+}
+
+.description section {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	background: rgba(179, 208, 242, 0.5);
+	margin-top: 3em;
+}
+
+.what {
+	margin-right: 5em;
+}
+
+button, .welcome {
+	margin-top: 8em;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
