@@ -1,13 +1,17 @@
-.header {
-	color: blue;
+* {
+	font-family: helvetica, sans-serif;
 }
-input[type="submit"] {
-	background: white;
-	color: blue;
+.title {
+	text-align: center
+}
+.subtitle {
+	text-align: center;
+	font-size: 10pt;
 }
 .email, .name, .quote, .context, .location, .tags {
 	width: 20em;
 }
 .context {
 	height: 5em;
+	width:	30em;
 }
