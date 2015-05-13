@@ -5,6 +5,9 @@ input[type="submit"] {
 	background: white;
 	color: blue;
 }
-.email, .name, .quote {
+.email, .name, .quote, .context, .location, .tags {
 	width: 20em;
+}
+.context {
+	height: 5em;
 }
