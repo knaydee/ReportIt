@@ -1,0 +1,72 @@
+* {
+    font-family: helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background: rgba(107, 175, 250, 0.25);
+    background-size: cover;
+    color: black;
+}
+.welcome {
+/*    height: 75%;*/
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body header h1 {
+    font-size: default;
+}
+
+.title {
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 3em;
+}
+
+.description {
+    display: inline-block;
+    margin: 3em auto;
+}
+
+.description section {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    background: rgba(179, 208, 242, 0.5);
+    padding: 1em;
+}
+
+.what {
+    margin-right: 1.5em;
+    
+}
+.what, .why {
+    border: 0.25em solid #849BB5;
+    border-radius: 0.25em;
+    margin-left: 1.5em;
+}
+
+#log {
+    display: table;
+    margin: 0 auto;
+}
+
+button {
+    margin-bottom: 0.5em;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width: 700px) {
+    .description section {
+        display: block;
+        margin: 0 auto 3em;
+        padding: 1em;
+    }
+    .title {
+        font-size: 2.25em;
+    }
+}

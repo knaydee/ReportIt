@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+<style>
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50;
+    text-align: center;
+}
+
+#log {
+    display: table;
+    margin: 0 auto;
+}
+
+</style>
+
+<h2>Your incident log has been sent.</h2>
+<h1>Thank you for using Report It!</h1>
+<a id="log" class="pure-button pure-button-primary" href="{% url 'report_it:log' %}">Send Another Incident Report</a>

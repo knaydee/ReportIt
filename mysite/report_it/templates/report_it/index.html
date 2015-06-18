@@ -1,0 +1,23 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'report_it/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'report_it/buttons.css' %}" />
+
+<header>
+    <img class="welcome" src="http://tourdash.com/wp-content/uploads/2014/07/Start_With_Why.jpg">
+    <h1 class="title">Welcome to Report It</h1>
+</header>
+<div class="description">
+    <section class="what">
+        <h1 class="subtitle">What Is Report It?</h1>
+        <p>Report It provides an easy way to log incidents of bullying or sexual harassment.</p>
+    </section>
+    <section class="why">
+        <h1 class="subtitle">Why Is This Important?</h1>
+        <p>When certain incidents or situations make you feel uncomfortable, it can be difficult to recognize them as a pattern. Report It can help you track incidents to create a comprehensive report that demonstrates a pattern of bullying or sexual harassment.  This can be a starting point to make a solid case and take it further.</p>
+    </section>
+</div>
+<a id="log" class="pure-button" href="{% url 'report_it:log' %}">Get Started</a>
+
+
+
+
