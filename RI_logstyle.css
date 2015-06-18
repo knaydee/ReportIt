@@ -1,8 +1,20 @@
 * {
 	font-family: helvetica, sans-serif;
 }
-.title {
+/*.title {
 	text-align: center
+}*/
+@media screen and (min-width: 641px) {
+   .title {text-align: center;
+   }
+}
+/*@media screen and (max-width: 640px) and (min-width: 321px) {
+   .title {text-align: center;
+   }
+}*/
+@media screen and (max-width: 320px) {
+   .title {text-align: center;
+   }
 }
 .subtitle {
 	text-align: center;
