@@ -8,10 +8,10 @@
    .title {text-align: center;
    }
 }
-/*@media screen and (max-width: 640px) and (min-width: 321px) {
+@media screen and (max-width: 640px) and (min-width: 321px) {
    .title {text-align: center;
    }
-}*/
+}
 @media screen and (max-width: 320px) {
    .title {text-align: center;
    }
