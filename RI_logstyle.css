@@ -6,7 +6,7 @@
 }*/
 @media screen and (min-width: 641px) {
    .title {text-align: center;
-      font-size: 20;
+      font-size: 50;
    }
 }
 @media screen and (max-width: 640px) and (min-width: 321px) {
